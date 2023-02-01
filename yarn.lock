@@ -1967,6 +1967,11 @@
   dependencies:
     "punycode" "^2.1.0"
 
+"use-undo@^1.1.1":
+  "integrity" "sha512-2NNpJv7TDQpyETgRTG5I/CsABX5nhExpx8PEhWiDsnW9C5BA6Xnn8G9u/lPeg3+JsBrBtUx8/5bMbGmpnWz1Cw=="
+  "resolved" "https://registry.npmjs.org/use-undo/-/use-undo-1.1.1.tgz"
+  "version" "1.1.1"
+
 "which-boxed-primitive@^1.0.2":
   "integrity" "sha512-bwZdv0AKLpplFY2KZRX6TvyuN7ojjr7lwkg6ml0roIy9YeuSr7JS372qlNW18UQYzgYK9ziGcerWqZOmEn9VNg=="
   "resolved" "https://registry.npmjs.org/which-boxed-primitive/-/which-boxed-primitive-1.0.2.tgz"
