@@ -1,9 +1,8 @@
 .section {
-	max-width: 1100px;
+	max-width: 600px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 10px;
-
 	margin: 100px auto;
 }
 
@@ -15,7 +14,7 @@
 }
 
 .flexColumn {
-	width: 500px;
+	width: 300px;
 	display: flex;
 	flex-direction: column;
 	row-gap: 10px;
@@ -27,14 +26,14 @@
 }
 
 .textarea {
-	width: 500px;
+	width: 300px;
 	height: 80px;
 	resize: none;
 	padding: 10px;
 }
 
 .history {
-	width: 500px;
+	width: 300px;
 }
 
 .historyBox {
@@ -53,8 +52,8 @@
 }
 
 .button {
-	width: 500px;
-	height: 50px;
+	width: 310px;
+	height: 30px;
 	padding: 5px;
 	display: flex;
 	justify-content: center;
