@@ -4,7 +4,6 @@ import React, { useEffect, useState } from "react";
 // libraries
 import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
 import useUndo from "use-undo";
-import { apiByAxios } from "./api/hello";
 
 // 특수문자, 괄호, 점 모두 제거 - 공백은 제거 안함
 let reg = /[`~!@#$%^&*()_|+\-=?;:'",.<>\{\}\[\]\\\/]/gim;
@@ -135,8 +134,6 @@ export default function Home() {
 	};
 
 	useEffect(() => {
-		apiByAxios().then((res) => console.log("res", res));
-
 		document.addEventListener("keydown", handleDetectUndo);
 		return () => {
 			document.removeEventListener("keydown", handleDetectUndo);
